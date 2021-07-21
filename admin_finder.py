@@ -20,7 +20,7 @@ def katfish():
     """)
 
 wordlist = open("/root/admin_finder/admin-page.txt","r")
-def findPanel(url):
+def admin_panel(url):
     for words in wordlist:
         words = words.strip()
         req = requests.get(url+"/"+words)
