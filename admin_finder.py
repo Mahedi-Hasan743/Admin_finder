@@ -32,8 +32,8 @@ print(katfish())
 url = input("Target url -->> ")
 if url !=None:
     for i in range(50):
-        t = threading.Thread(target=findPanel,args=(url,))
-        t.start()
+        time = threading.Thread
+        time.start()
 else:
     print("[+] Unable to find Admin Panel")
 
